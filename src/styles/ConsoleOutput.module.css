@@ -1,0 +1,47 @@
+.console {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  max-height: 400px;
+  background-color: #1e1e1e;
+  color: #cccccc;
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  overflow-y: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.consoleHeader {
+  background-color: #252526;
+  padding: 12px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #333333;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.consoleContent {
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 200px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: #cccccc;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.closeButton:hover {
+  color: #ffffff;
+}
