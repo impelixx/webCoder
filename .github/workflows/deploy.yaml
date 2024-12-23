@@ -48,13 +48,16 @@ jobs:
 
       - name: Download artifact
         uses: actions/download-artifact@v3
+        with:
+          name: github-pages
+          path: ./dist
 
       - name: Deploy to gh-pages branch
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # git init and git remote add origin are not needed
           git checkout -b gh-pages
+          cp -r ./dist/* .
           git add .
           git commit -m 'Deploy to GitHub Pages'
           git push --force origin gh-pages
