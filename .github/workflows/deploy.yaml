@@ -53,8 +53,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git init
-          git remote add origin https://github.com/${{ github.repository }}.git
+          # git init and git remote add origin are not needed
           git checkout -b gh-pages
           git add .
           git commit -m 'Deploy to GitHub Pages'
