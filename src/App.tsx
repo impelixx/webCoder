@@ -1,10 +1,4 @@
 import { useState, useEffect } from "react";
-import {
-  Clipboard,
-  ClipboardCheck,
-  Copyright,
-  Github,
-} from "lucide-react";
 import CodeEditor from "./components/CodeEditor";
 import TopBar from "./components/TopBar";
 import ConsoleOutput from './components/ConsoleOutput';
