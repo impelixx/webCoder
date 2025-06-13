@@ -1,115 +1,79 @@
-<div align=center>
+# SIGMA IDE
 
-![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
+<div align="center">
 
-<div style="display: flex; justify-content: center; align-items:center; gap: 1rem;">
-<img src="public/react.svg" style="width: 100px; height: 100px;">
-<img src="public/vite.svg" style="width: 90px; height: 100px;">
-</div>
+![views](https://komarev.com/ghpvc/?username=impelixx&label=views&color=blue&style=flat)
+![stars](https://img.shields.io/github/stars/impelixx/SIGMAinterpretator)
+![forks](https://img.shields.io/github/forks/impelixx/SIGMAinterpretator)
+![issues](https://img.shields.io/github/issues/impelixx/SIGMAinterpretator)
+![license](https://img.shields.io/github/license/impelixx/SIGMAinterpretator)
 
-# React Starter Template w/ ViteTs
-
-## A Minimal React Starter Template with Vite, TailwindCSS, and TypeScript pre-configured with ESLint and Prettier
-
-<br>
-
-| **Template Preview** |
-| -------------------- |
-| ![mockup]            |
+A modern web-based IDE for the SIGMA programming language, built with React, TypeScript, and Vite.
 
 </div>
 
-## Features
+## 🌟 Features
 
-- ⚡ **[Vite](https://vitejs.dev/)** - Lightning fast frontend tooling
-- ⚛️ **[React 18](https://reactjs.org/)** - A JavaScript library for building user interfaces
-- 🎨 **[TailwindCSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapidly building custom designs
-- 📦 **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript that compiles to plain JavaScript
-- 📦 **[react-router-dom](https://reactrouter.com/)** - Declarative routing for React
-- 📦 **[lucide-react](https://lucide.dev/)** - Beautiful & consistent icons
-- 📝 **[ESLint](https://eslint.org/)** - The pluggable linting utility for JavaScript and JSX
-- ✨ **[Prettier](https://prettier.io/)** - An opinionated code formatter
-- 📦 **[pnpm](https://pnpm.io/)** - Fast, disk space efficient package manager
+- 🚀 **Lightning Fast** - Built with Vite for optimal performance
+- 💻 **Modern UI** - Clean and intuitive interface with TailwindCSS
+- 🔍 **Smart Code Completion** - Intelligent code suggestions
+- 🎨 **Syntax Highlighting** - Beautiful code highlighting for SIGMA
+- 🔄 **Real-time Compilation** - Instant feedback on your code
+- 📱 **Responsive Design** - Works on desktop and mobile devices
 
-## Getting Started
+## 🔗 Related Projects
 
-**Scaffold the project:**
+This IDE is built to work with the [SIGMA Interpreter](https://github.com/impelixx/SIGMAinterpretator) - a powerful and flexible interpreter for the SIGMA programming language.
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- pnpm (recommended) or npm
+
+### Installation
+
+1. Clone the repository:
 ```bash
-pnpx degit Khushal-ag/react-template-viteTs <project-name>
-
-cd <project-name>
+git clone https://github.com/impelixx/SIGMA-IDE.git
+cd SIGMA-IDE
 ```
 
-**Install dependencies:**
-
+2. Install dependencies:
 ```bash
-pnpm i
+pnpm install
 ```
 
-**Initialize a new git repository _(Optional)_:**
-
+3. Start the development server:
 ```bash
-git init
-git add .
-git commit -m "init"
+pnpm dev
 ```
 
-## Available Scripts
+## 🛠️ Available Scripts
 
-In the project directory, you can run:
+| Script | Description |
+|--------|-------------|
+| `dev` | Start development server |
+| `build` | Build for production |
+| `preview` | Preview production build |
+| `lint` | Run ESLint |
+| `format` | Format code with Prettier |
 
-| **Script**   | **Description**                                                              |
-| ------------ | ---------------------------------------------------------------------------- |
-| `dev`        | Runs the app in the development mode.                                        |
-| `build`      | Builds the app for production to the `dist` folder.                          |
-| `serve`      | Serves the production build from the `dist` folder.                          |
-| `preview`    | Bundles and serves the production build from the `dist` folder.              |
-| `type-check` | Runs TypeScript type-checking.                                               |
-| `lint`       | Runs ESLint with Prettier.                                                   |
-| `fix`        | Runs ESLint with Prettier and fixes the errors.                              |
-| `fmt`        | Checks if the code is formatted with Prettier, if not then formats the code. |
-| `fmt:check`  | Checks if the code is formatted with Prettier.                               |
-| `fmt:write`  | Formats the code with Prettier.                                              |
+## 🤝 Contributing
 
-## After Installation Checklist
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-- [ ] Update `package.json` with your project details.
-- [ ] Update `README.md` with your project details.
-- [ ] Update `LICENSE` with your name and year.
-- [ ] Update `index.html` to your liking.
-- [ ] Clear `app.tsx` and write your own.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Switching Package Manager
 
-This template uses [pnpm](https://pnpm.io/) as the default package manager. If you want to use `npm` or `yarn`, you need to remove the `pnpm-lock.yaml` file and run `npm i` or `yarn` to generate the lock file for the respective package manager.
+## 🙏 Acknowledgments
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributors
-
-<div align=center>
-
-[![][contributors]][contributors-graph]
-
-_Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to update because it's refreshed once a day._
-
-</div>
-
-<!----------------------------------{ Labels }--------------------------------->
-
-[views]: https://komarev.com/ghpvc/?username=react-template-viteTs&label=view%20counter&color=red&style=flat
-[repo-size]: https://img.shields.io/github/repo-size/Khushal-ag/react-template-viteTs
-[issues]: https://img.shields.io/github/issues-raw/Khushal-ag/react-template-viteTs
-[license]: https://img.shields.io/github/license/Khushal-ag/react-template-viteTs
-[forks]: https://img.shields.io/github/forks/Khushal-ag/react-template-viteTs?style=flat
-[stars]: https://img.shields.io/github/stars/Khushal-ag/react-template-viteTs
-[contributors]: https://contrib.rocks/image?repo=Khushal-ag/react-template-viteTs&max=500
-[contributors-graph]: https://github.com/Khushal-ag/react-template-viteTs/graphs/contributors
-[contrib-rocks]: https://contrib.rocks/preview?repo=Khushal-ag%2Freact-template-viteTs
-
-<!----------------------------------{ Images }--------------------------------->
-
-[mockup]: https://graph.org/file/d18be68a824517335e1eb.png
+- [SIGMA Interpreter](https://github.com/impelixx/SIGMAinterpretator) - The core interpreter this IDE is built for
+- [React](https://reactjs.org/) - The web framework used
+- [Vite](https://vitejs.dev/) - The build tool used
+- [TailwindCSS](https://tailwindcss.com/) - The CSS framework used
