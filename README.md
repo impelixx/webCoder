@@ -36,7 +36,7 @@ This IDE is built to work with the [SIGMA Interpreter](https://github.com/impeli
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/impelixx/SIGMA-IDE.git
+git clone https://github.com/impelixx/webcoder.git
 cd SIGMA-IDE
 ```
 
